@@ -1,0 +1,22 @@
+.marquee{
+    background-color: #F5CB5C;;
+}
+.marquee>div{
+    animation: marquee infinite 8s linear alternate;
+    white-space: nowrap;
+}
+.marquee p{
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding: 17px 0px;
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-50%)  }
+}

@@ -10,6 +10,10 @@ export class AppResizeDirective {
     this.el = element.nativeElement;
   }
 
+  ngOnInit(){
+    this.onResize();
+  }
+
   ngAfterViewInit() {
     window.addEventListener('resize', this.onResize.bind(this));
   }

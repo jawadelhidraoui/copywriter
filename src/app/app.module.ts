@@ -16,6 +16,7 @@ import { NicetomeetyouComponent } from './aboutus/nicetomeetyou/nicetomeetyou.co
 import { NothingimpossibleComponent } from './aboutus/nothingimpossible/nothingimpossible.component';
 import { HeightDirective } from './height.directive';
 import { WidthDirective } from './width.directive';
+import { AppResizeDirective } from './app-resize.directive';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { WidthDirective } from './width.directive';
     NothingimpossibleComponent,
     HeightDirective,
     WidthDirective,
+    AppResizeDirective,
   ],
   imports: [
     BrowserModule,

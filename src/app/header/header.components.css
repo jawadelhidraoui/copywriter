@@ -21,15 +21,17 @@ h1 {
     margin: 0;
 }
 header > div {
+    min-width: fit-content;
     width: 25%;
     display: flex;
     justify-content: center;
 }
 header > nav{
-    width: 25%;
+    max-width: 600px;
+    min-width: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 header>*{
     align-items: center;
@@ -39,6 +41,5 @@ img{
     margin: 0 6px;
 }
 .category{
-    padding: 0px 20px;
     height: 100%;
 }

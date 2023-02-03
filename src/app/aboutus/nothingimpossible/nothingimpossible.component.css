@@ -5,11 +5,13 @@
     width: 100%;
 }
 .image{
+    min-width: 500px;
     width: 36%;
     height: 920px;
 }
 .texte{
     display: flex;
+    min-width: 500px;
     width: 64%;
     background: rgb(32,32,32);
     background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(45,45,45,1) 100%);

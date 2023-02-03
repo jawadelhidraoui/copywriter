@@ -6,6 +6,7 @@
 }
 .text{
     display: flex;
+    min-width: 55%;
     width: 64%;
     background: rgb(32,32,32);
     background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(45,45,45,1) 100%);
@@ -15,6 +16,7 @@
     font-size: 20px;
 }
 .image{
+    min-width: 36%;
     width: 36%;
     height: 880px;
 }

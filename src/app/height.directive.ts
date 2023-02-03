@@ -4,12 +4,12 @@ import { Directive, ElementRef, Input, OnInit } from '@angular/core';
   selector: '[appHeight]'
 })
 export class HeightDirective implements OnInit{
-  @Input() height: number;
+  @Input('appHeight') height: string;
 
   constructor(private el:ElementRef) { }
 
   ngOnInit(): void {
-    this.height = this.height == null ? screen.availHeight : this.height;
+    this.height = this.height == "" || this.height == null ? (screen.availHeight-100).toString() : this.height;
     this.setHeight();
   }
 

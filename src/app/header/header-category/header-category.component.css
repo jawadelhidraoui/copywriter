@@ -3,7 +3,13 @@ a{
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
-a:hover{
+div:hover a{
     color: #F5CB5C;
     transform: translateY(10px);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }

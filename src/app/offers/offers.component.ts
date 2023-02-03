@@ -2,12 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-offers',
-  template: `
-    <p>
-      offers works!
-    </p>
-  `,
-  styles: [
+  templateUrl: `offers.component.html`,
+  styleUrls: ['offers.component.css'
   ]
 })
 export class OffersComponent {

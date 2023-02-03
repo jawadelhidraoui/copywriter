@@ -3,9 +3,7 @@
         <h1>EL HIDRAOUI <span class="yellow">J</span>AWAD</h1>
     </div>
     <nav>
-        <div *ngFor="let category of headerCategories">
-            <app-header-category [category]="category"></app-header-category>
-        </div>  
+            <app-header-category class="category" *ngFor="let category of headerCategories" [category]="category"></app-header-category>
     </nav>
     <div>
         <a href="https://www.linkedin.com/in/jelhi/" target="_blank"><img src="assets/images/in-logo.png"/></a>

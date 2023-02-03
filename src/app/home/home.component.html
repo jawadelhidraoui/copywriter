@@ -12,7 +12,7 @@
             entrepreneurs talentueux et pleins de ressources à développer leur voix, à gagner en visibilité
             et améliorer leurs performances commerciales en écrivant des histoires impactantes sur
             leurs entreprises, leurs produits et leurs services.</p>
-        <a href="#">En savoir plus</a>
+        <a [routerLink]="'/about-us'">En savoir plus</a>
     </div>
 </div>
 <div id="thirdDiv">
@@ -35,20 +35,15 @@
     <p>Non ! Ici on privilégie des méthodes durables qui te permettront de te rapprocher de la
         clientèle qui partage les mêmes valeurs que toi et ton entreprise.</p>
     <p>Qu’attends-tu ? Obtiens ton accompagnement personnalisé dès maintenant ! ⬇️</p>
-    <a>COMMENCE DÈS MAINTENANT !</a>
+    <a href="#fourthDiv">COMMENCE DÈS MAINTENANT !</a>
 </div>
 <div id="fourthDiv">
     <h2>QUELS SONT MES SERVICES ?</h2>
     <h3>Un leader ne part pas en guerre sans plan, ni armes</h3>
     <div class="row">
         <div>
+            <img class="round" src="assets/images/copyhome.jpg"/>
             <h3>REDACTION COPYWRITING</h3>
-            <!--<p>Tu souhaites :</p>
-            <ul>
-                <li>Plus d’engagement ?</li>
-                <li>Un meilleur taux de conversion ?</li>
-                <li>Élargir ta visibilité ?</li>
-            </ul>-->
             <div>
                 <p>Je rédige (ou réécris) de manière impactante et selon TES objectifs l’ensemble 
                     de tes contenus web :</p>
@@ -60,9 +55,10 @@
                     <li>Articles...</li>
                 </ul>
             </div>
-            <a>+ DETAILS</a>
+            <a [routerLink]="'/contact'">+ DETAILS</a>
         </div>
         <div>
+            <img class="round" src="assets/images/stratmark.jpg"/>
             <h3>STRATEGIE MARKETING</h3>
             <div>
                 <p>Je met en place ta stratégie de contenu pour qu’elle colle à TES valeurs et à TES objectifs :</p>
@@ -73,9 +69,10 @@
                     <li>Je met en place une stratégie de contenu adéquate.</li>
                 </ul>  
             </div>
-            <a>+ DETAILS</a>
+            <a [routerLink]="'/contact'">+ DETAILS</a>
         </div>
         <div>
+            <img class="round" src="assets/images/devweb.jpg"/>
             <h3>CREATION DE SITE WEB</h3>
             <div>
                 <p>Je développe/administre selon TES besoins des sites web responsives, immersifs
@@ -87,7 +84,7 @@
                 </ul>
             </div>
             
-            <a>+ DETAILS</a>
+            <a [routerLink]="'/contact'">+ DETAILS</a>
         </div>
     </div>
 </div>

@@ -16,6 +16,7 @@ import { NicetomeetyouComponent } from './aboutus/nicetomeetyou/nicetomeetyou.co
 import { NothingimpossibleComponent } from './aboutus/nothingimpossible/nothingimpossible.component';
 import { HeightDirective } from './height.directive';
 import { WidthDirective } from './width.directive';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { WidthDirective } from './width.directive';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

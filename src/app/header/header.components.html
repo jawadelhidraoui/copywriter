@@ -2,7 +2,7 @@
     <div class="title">
         <h1>EL HIDRAOUI <span class="yellow">J</span>AWAD</h1>
     </div>
-    <nav appResize>
+    <nav [ngStyle]="{'display': display}">
             <app-header-category class="category" *ngFor="let category of headerCategories" [category]="category"></app-header-category>
     </nav>
     <div>

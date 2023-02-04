@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -14,5 +14,10 @@ export class AppComponent implements AfterViewInit{
         event.preventDefault();
       }
     }, {passive: false});
+  }
+
+  @HostListener('document:gesturechange', ['$event'])
+    onGestureChange(event: TouchEvent) {
+    event.preventDefault();
   }
 }

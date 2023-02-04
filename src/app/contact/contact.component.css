@@ -1,8 +1,23 @@
+@media screen and (max-width:900px) {
+    h2{
+        font-size: xxx-large;
+    }
+    p, h3{
+        font-size: x-large;
+    }
+    p{
+        width: 90%;
+    }
+}
+@media screen and (min-width:901px) {
+    
+}
 .wrap{
     flex-wrap: wrap;
 }
 *{
     color: black;
+    text-align: center;
 }
 .row{
     display: flex;

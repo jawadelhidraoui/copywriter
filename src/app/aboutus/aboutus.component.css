@@ -4,6 +4,7 @@
 .marquee>div{
     animation: marquee infinite 8s linear alternate;
     white-space: nowrap;
+    overflow: hidden;
 }
 .marquee p{
     display: inline-block;

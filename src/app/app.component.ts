@@ -15,9 +15,4 @@ export class AppComponent implements AfterViewInit{
       }
     }, {passive: false});
   }
-
-  @HostListener('document:gesturechange', ['$event'])
-    onGestureChange(event: TouchEvent) {
-    event.preventDefault();
-  }
 }

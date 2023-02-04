@@ -1,9 +1,10 @@
-@media screen and (max-width: 550) {
+@media screen and (max-width: 550px) {
     .row>div{
-        min-width: 400px;
+        min-width: fit-content;
+        min-width: 258px;
     }
 }
-@media screen and (min-width: 551){
+@media screen and (min-width: 551px){
     .row>div{
         min-width: 550px;
     }
@@ -68,9 +69,8 @@ a:hover{
     display: flex;
     padding-bottom: 50px;
     border-radius: 30px;
-    max-width: 20%;
+    width: 25%;
     height: fit-content;
-    min-width: 500px;
     flex-direction: column;
     align-items: center;
 }

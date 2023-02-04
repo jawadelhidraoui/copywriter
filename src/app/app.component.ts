@@ -12,7 +12,6 @@ export class AppComponent implements AfterViewInit{
     document.addEventListener('wheel', function(event) {
       if (event.ctrlKey) {
         event.preventDefault();
-        event.stopPropagation();
       }
     }, {passive: false});
   }

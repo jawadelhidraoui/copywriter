@@ -17,6 +17,9 @@ import { NothingimpossibleComponent } from './aboutus/nothingimpossible/nothingi
 import { HeightDirective } from './height.directive';
 import { WidthDirective } from './width.directive';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { QuiSuisJeComponent } from './home/qui-suis-je/qui-suis-je.component';
+import { CuriosityComponent } from './home/curiosity/curiosity.component';
+import { MesServicesComponent } from './home/mes-services/mes-services.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     NothingimpossibleComponent,
     HeightDirective,
     WidthDirective,
+    QuiSuisJeComponent,
+    CuriosityComponent,
+    MesServicesComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: #101010;
 }

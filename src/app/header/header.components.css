@@ -1,3 +1,33 @@
+@media screen and (max-width: 450px){
+    nav {
+        display: none;
+    }
+    h1{
+        font-size: x-large;
+    }
+    img{
+        height: 25px;
+        margin: 0 4px;
+    }
+}
+@media screen and (max-width: 850px) and (min-width: 451px){
+    nav {
+        display: none;
+    }
+    img{
+        height: 30px;
+        margin: 0 6px;
+    }
+}
+@media screen and (min-width: 851px){
+    nav {
+        display: flex;
+    }
+    img{
+        height: 30px;
+        margin: 0 6px;
+    }
+}
 header{
     background-color: #101010;
     display: flex;
@@ -7,7 +37,9 @@ header{
     height: 100px;
 }
 a{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.3s ease-in-out;
 }
 a:hover{
@@ -26,20 +58,16 @@ header > div {
     display: flex;
     justify-content: center;
 }
-header > nav{
+nav{
     max-width: 600px;
     min-width: 300px;
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 header>*{
     align-items: center;
 }
-img{
-    height: 30px;
-    margin: 0 6px;
-}
+
 .category{
     height: 100%;
 }

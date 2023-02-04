@@ -1,13 +1,13 @@
 <header>
     <div class="title">
-        <h1>EL HIDRAOUI <span class="yellow">J</span>AWAD</h1>
+        <h1><a [routerLink]="'/home'">EL HIDRAOUI <span class="yellow">J</span>AWAD</a></h1>
     </div>
     <nav>
             <app-header-category class="category" *ngFor="let category of headerCategories" [category]="category"></app-header-category>
     </nav>
     <div>
-        <a href="https://www.linkedin.com/in/jelhi/" target="_blank"><img src="assets/images/in-logo.png"/></a>
-        <a href="https://www.instagram.com/jawad.elhidraoui/" target="_blank"><img src="assets/images/logo-instagram.png"/></a>
-        <a href="#" target="_blank"><img src="assets/images/logo-facebook.png"/></a>
+        <a class="socialNetwork" href="https://www.linkedin.com/in/jelhi/" target="_blank"><img src="assets/images/in-logo.png"/></a>
+        <a class="socialNetwork" href="https://www.instagram.com/jawad.elhidraoui/" target="_blank"><img src="assets/images/logo-instagram.png"/></a>
+        <a class="socialNetwork" href="#" target="_blank"><img src="assets/images/logo-facebook.png"/></a>
     </div>
 </header>

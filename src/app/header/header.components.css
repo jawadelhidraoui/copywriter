@@ -37,12 +37,15 @@ header{
     height: 100px;
 }
 a{
+    text-decoration: none;
+}
+.socialNetwork{
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
 }
-a:hover{
+.socialNetwork:hover{
     transform: translateY(7px);
 }
 span{

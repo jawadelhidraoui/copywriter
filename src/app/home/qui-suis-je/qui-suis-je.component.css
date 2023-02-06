@@ -1,9 +1,30 @@
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 700px){
+    .quiSuisJe {
+        width: 90%;
+    }
+    h2{
+        font-size: xx-large;
+    }
+    p{
+        padding-left: 0;
+    }
+    h3{
+        font-size: larger;
+    }
+}
+@media screen and (max-width: 1110px) and (min-width: 701px){
     .quiSuisJe {
         width: 90%;
     }
     p {
         width: 100%;
+        padding-left: 0;
+    }
+    h2{
+        font-size: xxx-large;
+    }
+    h3{
+        font-size: x-large;
     }
 }
 @media screen and (min-width: 1111px){
@@ -13,21 +34,22 @@
     p{
         width: 70%;
     }
+    h2{
+        font-size: xxx-large;
+    }
+    h3{
+        font-size: x-large;
+    }
 }
 h2{
-    font-size: xxx-large;
     margin: 0;
     margin-top: 100px;
-}
-h3{
-    font-size: x-large;
 }
 h3, h2 {
     text-align: center;
 }
 p, li{
     font-size: larger;
-    text-indent: 20px;
 }
 h2{
     font-weight: lighter;
@@ -54,12 +76,10 @@ p {
 }
 .tache {
     max-width: 45%;
-    min-width: 500px;
 }
 img{
     width: 100%;
 }
-
 .quiSuisJe{
     display: flex;
     flex-direction: column;

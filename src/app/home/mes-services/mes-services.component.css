@@ -4,13 +4,25 @@
         min-width: 258px;
     }
 }
+@media screen and (max-width: 700px){
+    h2{
+        font-size: xx-large;
+    }
+    h3{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 701px) {
+    h2{
+        font-size: xxx-large;
+    }
+}
 @media screen and (min-width: 551px){
     .row>div{
         min-width: 550px;
     }
 }
 h2{
-    font-size: xxx-large;
     margin: 0;
     margin-top: 100px;
 }
@@ -55,6 +67,9 @@ a:hover{
 }
 #fourthDiv{
     padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .row {
     text-align: center;

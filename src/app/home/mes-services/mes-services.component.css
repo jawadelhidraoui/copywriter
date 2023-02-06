@@ -112,6 +112,7 @@ a:hover{
 }
 ul{
     width: 90%;
+    padding-left: 0px;
 }
 .round{
     border-radius: 50%;
